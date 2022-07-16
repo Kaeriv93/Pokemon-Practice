@@ -16,6 +16,7 @@ a{
     color: white;
     text-decoration: none;
     float: right;
+    font-size: 2rem;
 }
 
 .go-right{
@@ -88,7 +89,7 @@ section h1{
 
    .hambar{
     visibility: visible;
-    font-size: 2rem;
+    font-size: 3rem;
     float: right;
     cursor: pointer;
    }
