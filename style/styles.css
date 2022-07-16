@@ -53,6 +53,10 @@ section h1{
     text-align: center;
 }
 
+.hambar{
+    visibility: hidden;;
+}
+
 
 
 @media screen and (max-width:720px) {
@@ -76,5 +80,16 @@ section h1{
    }
    .pokemon h3{
     text-align: left;
+   }
+
+   .nav{
+    visibility: hidden;
+   }
+
+   .hambar{
+    visibility: visible;
+    font-size: 2rem;
+    float: right;
+    cursor: pointer;
    }
 }

@@ -1,3 +1,7 @@
-import {pokedex} from './pokemon'
+const hambar = document.querySelectorAll('.hambar')
 
-console.log(pokedex)
+console.log(hambar)
+
+hambar.forEach((ham)=> ham.addEventListener('click',()=>{
+    alert('I am a button')
+}))
