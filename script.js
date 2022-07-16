@@ -1,1 +1,3 @@
-alert("How are you?")
+import {pokedex} from './pokemon'
+
+console.log(pokedex)
